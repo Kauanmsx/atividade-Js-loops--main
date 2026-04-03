@@ -23,9 +23,9 @@ Coleção de exercícios práticos para fixar o uso das estruturas de repetiçã
 Exibe os números de 1 a 10 no console em ordem crescente.
 
 ```js
-for (let i = 1; i <= 10; i++) {
-  console.log(i);
-}
+for (let i = 1; i<= 10; i++){
+    console.log(1);
+} 
 ```
 
 ---
@@ -35,10 +35,9 @@ for (let i = 1; i <= 10; i++) {
 Gera automaticamente a tabuada de 1 a 10 de um número definido no código.
 
 ```js
-const numero = 7;
-
-for (let i = 1; i <= 10; i++) {
-  console.log(numero + " x " + i + " = " + (numero * i));
+const numero = 7; 
+for (let i = 1; i<= 10; i++ ){
+    console.log(numero + " x " + i + " = " + (numero * i));
 }
 ```
 
