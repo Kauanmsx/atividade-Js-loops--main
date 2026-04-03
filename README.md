@@ -102,14 +102,13 @@ Percorre todas as propriedades de um objeto e exibe chave e valor.
 
 ```js
 const usuario = {
-  nome: "Ana",
-  idade: 22,
-  curso: "Desenvolvimento Web",
-  matricula: "2024001"
-};
-
-for (let propriedade in usuario) {
-  console.log(propriedade + ": " + usuario[propriedade]);
+  nome: "kauan marinho",
+  idade: 20,
+  curso: "sistemas de informação"
+  matricula: 12345
+}; 
+  for (let propriedade in usuario) {
+     console.log(propriedade + ": " + usuario[propriedade]);
 }
 ```
 
@@ -173,7 +172,7 @@ Você pode rodar qualquer exercício de três formas:
 - Pressione `F12` → aba **Console**
 - Cole o código e pressione `Enter`
 
-**2. Com Node.js**
+**2. Com codex.js**
 ```bash
 node nome-do-arquivo.js
 ```
